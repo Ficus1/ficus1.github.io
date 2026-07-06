@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ═══ SEO ═══ -->
+<title>Яковлев Вадим — Fullstack-разработчик и 1С-программист | Резюме</title>
+<meta name="description" content="Вадим Яковлев — Fullstack-разработчик и 1С-программист из Чебоксар. Python (Django, FastAPI), PHP (Laravel, Yii2), C# (ASP.NET Blazor), 1С:ERP. 1,5 года коммерческого опыта, 8+ проектов. Открыт к работе, удалённо или гибрид.">
+<meta name="keywords" content="Яковлев Вадим, Fullstack разработчик, 1С программист, Python разработчик, Django, FastAPI, Laravel, ASP.NET, 1С ERP, веб-разработчик Чебоксары, резюме программиста, backend разработчик">
+<meta name="author" content="Яковлев Вадим Алексеевич">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://ficus1.github.io/">
+<meta name="theme-color" content="#0D1117">
+
+<!-- ═══ Open Graph (соцсети, мессенджеры) ═══ -->
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Яковлев Вадим — Fullstack-разработчик и 1С-программист">
+<meta property="og:description" content="Python, PHP, C#, 1С:ERP. 1,5 года коммерческого опыта, 8+ проектов на GitHub. Открыт к работе.">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:url" content="https://ficus1.github.io/">
+<meta property="og:site_name" content="Резюме — Яковлев Вадим">
+<meta property="profile:first_name" content="Вадим">
+<meta property="profile:last_name" content="Яковлев">
+<meta property="og:image" content="https://ficus1.github.io/og-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- ═══ Twitter Card ═══ -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Яковлев Вадим — Fullstack & 1С Developer">
+<meta name="twitter:description" content="Python, PHP, C#, 1С:ERP. Открыт к работе — удалённо или гибрид.">
+<meta name="twitter:image" content="https://ficus1.github.io/og-preview.png">
+
+<!-- ═══ Favicon (SVG inline) ═══ -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230D1117'/%3E%3Ctext x='50' y='68' font-family='monospace' font-size='42' font-weight='700' fill='%2358A6FF' text-anchor='middle'%3E%D0%92%D0%AF%3C/text%3E%3C/svg%3E">
+
+<!-- ═══ JSON-LD (структурированные данные для Google) ═══ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Яковлев Вадим Алексеевич",
+  "givenName": "Вадим",
+  "familyName": "Яковлев",
+  "jobTitle": "Fullstack-разработчик и 1С-программист",
+  "description": "Fullstack-разработчик с опытом на Python, PHP и C#, а также 1,5 года коммерческого опыта работы с 1С:ERP.",
+  "url": "https://ficus1.github.io/",
+  "email": "mailto:yvadimka04@mail.ru",
+  "telephone": "+79063857989",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Чебоксары",
+    "addressCountry": "RU"
+  },
+  "sameAs": [
+    "https://github.com/Ficus1",
+    "https://ficus1.github.io/gallery/"
+  ],
+  "knowsLanguage": ["ru", "en"],
+  "knowsAbout": ["Python", "Django", "FastAPI", "PHP", "Laravel", "C#", "ASP.NET", "1С:ERP", "PostgreSQL", "Docker"],
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Чувашский государственный университет им. И.Н. Ульянова"
+  }
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root[data-theme="dark"] {
+  --bg: #0D1117;
+  --bg-card: #161B22;
+  --bg-card-hover: #1C2333;
+  --border: #30363D;
+  --accent: #58A6FF;
+  --accent-dim: #1F3B5A;
+  --text-primary: #E6EDF3;
+  --text-secondary: #8B949E;
+  --text-muted: #484F58;
+  --tag-bg: #1F3B5A;
+  --tag-text: #79C0FF;
+  --success: #3FB950;
+  --toggle-bg: #21262D;
+  --purple: #BC8CFF;
+  --purple-dim: #2D1F5A;
+}
+:root[data-theme="light"] {
+  --bg: #F6F8FA;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #F0F6FF;
+  --border: #D0D7DE;
+  --accent: #0969DA;
+  --accent-dim: #DDF4FF;
+  --text-primary: #1F2328;
+  --text-secondary: #656D76;
+  --text-muted: #AFB8C1;
+  --tag-bg: #DDF4FF;
+  --tag-text: #0550AE;
+  --success: #1A7F37;
+  --toggle-bg: #EAEEF2;
+  --purple: #8250DF;
+  --purple-dim: #FBEFFF;
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:'Inter',sans-serif;
+  background:var(--bg);
+  color:var(--text-primary);
+  line-height:1.6;
+  transition:background .25s,color .25s;
+}
+
+/* ── LAYOUT ── */
+.layout{
+  display:grid;
+  grid-template-columns:260px 1fr;
+  min-height:100vh;
+  max-width:1280px;
+  margin:0 auto;
+}
+
+/* ── SIDEBAR ── */
+.sidebar{
+  position:sticky;
+  top:0;
+  height:100vh;
+  overflow-y:auto;
+  padding:32px 20px;
+  border-right:1px solid var(--border);
+  display:flex;
+  flex-direction:column;
+  gap:24px;
+  transition:border-color .25s;
+}
+.sidebar::-webkit-scrollbar{width:0;}
+
+/* Profile */
+.profile-block{text-align:center;}
+.avatar{
+  width:64px;height:64px;border-radius:50%;
+  background:var(--accent-dim);
+  border:2px solid var(--accent);
+  display:flex;align-items:center;justify-content:center;
+  margin:0 auto 12px;
+  font-family:'JetBrains Mono',monospace;
+  font-size:20px;font-weight:700;color:var(--accent);
+}
+.profile-name{
+  font-family:'JetBrains Mono',monospace;
+  font-size:13px;font-weight:600;
+  color:var(--text-primary);margin-bottom:3px;
+}
+.profile-role{font-size:11px;color:var(--text-secondary);}
+.status-dot{
+  display:inline-flex;align-items:center;gap:6px;
+  margin-top:8px;font-size:11px;color:var(--success);
+  font-family:'JetBrains Mono',monospace;
+}
+.status-dot::before{
+  content:'';width:7px;height:7px;
+  background:var(--success);border-radius:50%;
+  animation:pulse 2s infinite;
+}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:.4;}}
+
+/* Salary */
+.salary-block{
+  background:var(--bg-card);border:1px solid var(--border);
+  border-radius:8px;padding:10px 14px;text-align:center;
+}
+.salary-label{font-size:9px;color:var(--text-muted);font-family:'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:.08em;}
+.salary-value{font-family:'JetBrains Mono',monospace;font-size:18px;font-weight:700;color:var(--accent);margin-top:2px;}
+
+/* Contact list */
+.sidebar-label{
+  font-size:10px;font-family:'JetBrains Mono',monospace;
+  color:var(--text-muted);text-transform:uppercase;
+  letter-spacing:.1em;margin-bottom:6px;
+}
+.contact-list{display:flex;flex-direction:column;gap:5px;}
+.contact-item{
+  display:flex;align-items:center;gap:8px;
+  font-size:12px;color:var(--text-secondary);
+  text-decoration:none;transition:color .15s;
+  padding:3px 0;
+}
+.contact-item:hover{color:var(--accent);}
+.contact-item .ci{font-size:13px;flex-shrink:0;width:16px;text-align:center;}
+
+/* Nav */
+nav{display:flex;flex-direction:column;gap:2px;}
+nav a{
+  display:flex;align-items:center;gap:10px;
+  padding:7px 10px;border-radius:6px;
+  text-decoration:none;font-size:13px;
+  color:var(--text-secondary);transition:background .15s,color .15s;
+  font-weight:500;
+}
+nav a:hover,nav a.active{background:var(--tag-bg);color:var(--accent);}
+nav a .icon{font-size:14px;width:18px;text-align:center;}
+
+/* Theme toggle */
+.theme-toggle{
+  margin-top:auto;
+  display:flex;align-items:center;justify-content:center;gap:8px;
+  font-size:12px;color:var(--text-muted);cursor:pointer;
+  padding:9px;border-radius:8px;
+  border:1px solid var(--border);background:var(--toggle-bg);
+  transition:all .2s;font-family:'JetBrains Mono',monospace;
+}
+.theme-toggle:hover{color:var(--accent);border-color:var(--accent);}
+
+/* ── MAIN ── */
+main{padding:40px 48px;display:flex;flex-direction:column;gap:60px;}
+
+/* ── HERO ── */
+.hero{padding-bottom:40px;border-bottom:1px solid var(--border);}
+.hero-eyebrow{
+  font-family:'JetBrains Mono',monospace;font-size:13px;
+  color:var(--accent);margin-bottom:14px;
+  display:flex;align-items:center;gap:8px;
+}
+.cursor{
+  display:inline-block;width:2px;height:14px;
+  background:var(--accent);animation:blink 1s step-end infinite;
+  vertical-align:middle;
+}
+@keyframes blink{0%,100%{opacity:1;}50%{opacity:0;}}
+.hero h1{
+  font-family:'JetBrains Mono',monospace;font-size:38px;font-weight:700;
+  color:var(--text-primary);line-height:1.15;margin-bottom:8px;
+}
+.hero h1 span{color:var(--accent);}
+.hero-sub{font-size:16px;color:var(--text-secondary);font-weight:300;margin-bottom:20px;}
+.hero-tags{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:28px;}
+.tag{
+  padding:4px 12px;border-radius:20px;
+  background:var(--tag-bg);color:var(--tag-text);
+  font-size:12px;font-family:'JetBrains Mono',monospace;
+  border:1px solid transparent;transition:border-color .2s;
+}
+.tag:hover{border-color:var(--accent);}
+.hero-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;}
+.stat{
+  background:var(--bg-card);border:1px solid var(--border);
+  border-radius:8px;padding:14px;text-align:center;
+  transition:border-color .2s;
+}
+.stat:hover{border-color:var(--accent);}
+.stat-n{
+  font-family:'JetBrains Mono',monospace;font-size:1.5rem;
+  font-weight:700;color:var(--accent);line-height:1;
+}
+.stat-l{font-size:11px;color:var(--text-muted);margin-top:3px;}
+
+/* ── SECTION ── */
+section{display:flex;flex-direction:column;gap:20px;}
+.section-header{display:flex;align-items:center;gap:12px;}
+.section-header h2{
+  font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:600;
+  color:var(--text-muted);text-transform:uppercase;letter-spacing:.12em;
+  white-space:nowrap;
+}
+.section-line{flex:1;height:1px;background:var(--border);}
+
+/* ── CARD ── */
+.card{
+  background:var(--bg-card);border:1px solid var(--border);
+  border-radius:10px;padding:22px;
+  transition:background .2s,border-color .2s,transform .15s;
+}
+.card:hover{background:var(--bg-card-hover);border-color:var(--accent);transform:translateY(-1px);}
+
+/* ── TABS ── */
+.tabs-bar{
+  display:flex;gap:0;border-bottom:1px solid var(--border);
+  margin-bottom:4px;
+}
+.tab-btn{
+  background:none;border:none;cursor:pointer;
+  padding:8px 16px;font-size:13px;font-weight:500;
+  color:var(--text-secondary);font-family:'Inter',sans-serif;
+  border-bottom:2px solid transparent;margin-bottom:-1px;
+  transition:color .15s,border-color .15s;white-space:nowrap;
+}
+.tab-btn:hover{color:var(--accent);}
+.tab-btn.active{color:var(--accent);border-bottom-color:var(--accent);}
+.tab-pane{display:none;padding-top:16px;}
+.tab-pane.active{display:flex;flex-direction:column;gap:16px;}
+
+/* ── EXPERIENCE ── */
+.exp-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:3px;gap:16px;}
+.exp-title{font-size:15px;font-weight:600;color:var(--text-primary);}
+.exp-period{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--text-muted);white-space:nowrap;flex-shrink:0;}
+.exp-company{font-size:13px;color:var(--accent);margin-bottom:12px;font-weight:500;}
+.exp-duration{font-size:11px;color:var(--text-muted);font-family:'JetBrains Mono',monospace;margin-left:6px;}
+.exp-duties{list-style:none;display:flex;flex-direction:column;gap:5px;margin-bottom:14px;}
+.exp-duties li{font-size:13px;color:var(--text-secondary);padding-left:16px;position:relative;}
+.exp-duties li::before{content:'›';position:absolute;left:0;color:var(--accent);font-size:14px;}
+.ach-label{
+  font-family:'JetBrains Mono',monospace;font-size:10px;
+  color:var(--success);text-transform:uppercase;letter-spacing:.1em;margin-bottom:7px;
+}
+.ach-list{list-style:none;display:flex;flex-direction:column;gap:5px;}
+.ach-list li{font-size:13px;color:var(--text-secondary);padding-left:16px;position:relative;}
+.ach-list li::before{content:'✓';position:absolute;left:0;color:var(--success);font-size:12px;}
+
+/* ── ABOUT ── */
+.about-text{font-size:14px;color:var(--text-secondary);line-height:1.75;}
+.about-text p{margin-bottom:10px;}
+.about-text p:last-child{margin-bottom:0;}
+.about-text strong{color:var(--text-primary);}
+.about-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
+.about-card{
+  background:var(--bg-card);border:1px solid var(--border);
+  border-radius:10px;padding:16px;transition:border-color .2s;
+}
+.about-card:hover{border-color:var(--accent);}
+.about-card-icon{font-size:18px;margin-bottom:7px;}
+.about-card-title{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--accent);text-transform:uppercase;letter-spacing:.06em;margin-bottom:5px;}
+.about-card-text{font-size:12px;color:var(--text-secondary);line-height:1.6;}
+
+/* ── SKILLS ── */
+.skills-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px;}
+.skill-group-title{
+  font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--accent);
+  text-transform:uppercase;letter-spacing:.1em;margin-bottom:8px;
+  border-bottom:1px solid var(--border);padding-bottom:5px;
+}
+.skill-tags{display:flex;flex-wrap:wrap;gap:5px;}
+.skill-tag{
+  padding:3px 9px;border-radius:4px;
+  background:var(--tag-bg);color:var(--tag-text);
+  font-size:11px;font-family:'JetBrains Mono',monospace;
+}
+
+/* ── LEARNING ── */
+.learn-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;}
+.learn-card{
+  background:var(--bg-card);border:1px solid var(--border);
+  border-radius:8px;padding:14px;transition:border-color .2s;
+}
+.learn-card:hover{border-color:var(--purple);}
+.learn-icon{font-size:18px;margin-bottom:6px;}
+.learn-name{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:600;color:var(--text-primary);margin-bottom:2px;}
+.learn-desc{font-size:11px;color:var(--text-muted);}
+.prog-wrap{height:3px;background:var(--border);border-radius:3px;margin-top:9px;overflow:hidden;}
+.prog-fill{height:100%;background:linear-gradient(90deg,var(--accent),var(--purple));border-radius:3px;}
+
+/* ── PROJECTS ── */
+.project-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));
+  gap:14px;align-items:stretch;
+}
+.project-card{
+  background:var(--bg-card);border:1px solid var(--border);
+  border-radius:10px;padding:18px;
+  display:flex;flex-direction:column;gap:9px;
+  transition:background .2s,border-color .2s,transform .15s;
+  height:100%;
+}
+.project-card:hover{background:var(--bg-card-hover);border-color:var(--accent);transform:translateY(-2px);}
+.project-name{
+  font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:600;
+  color:var(--text-primary);
+}
+.project-stack{
+  font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--accent);
+  background:var(--accent-dim);padding:3px 8px;border-radius:4px;
+  display:inline-block;align-self:flex-start;
+}
+.project-desc{font-size:12px;color:var(--text-secondary);line-height:1.55;flex:1;}
+.project-links{
+  display:flex;gap:14px;margin-top:4px;padding-top:11px;
+  border-top:1px solid var(--border);
+}
+.project-link{
+  font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:500;
+  color:var(--accent);text-decoration:none;
+  transition:opacity .15s;
+}
+.project-link:hover{text-decoration:underline;opacity:.8;}
+
+/* ── EDUCATION ── */
+.edu-degree{font-size:14px;font-weight:600;color:var(--text-primary);margin-bottom:2px;}
+.edu-uni{font-size:13px;color:var(--accent);margin-bottom:3px;}
+.edu-spec{font-size:12px;color:var(--text-secondary);}
+.edu-year{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--text-muted);margin-top:5px;}
+.course-item{
+  display:flex;align-items:center;gap:12px;
+  padding:11px 16px;background:var(--bg-card);border:1px solid var(--border);
+  border-radius:8px;font-size:13px;color:var(--text-secondary);
+  transition:border-color .2s;
+}
+.course-item:hover{border-color:var(--accent);}
+.course-year{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--accent);min-width:32px;}
+
+/* ── MOBILE ── */
+.hamburger{
+  display:none;position:fixed;top:12px;left:12px;z-index:200;
+  width:38px;height:38px;border-radius:8px;
+  border:1px solid var(--border);background:var(--bg-card);
+  cursor:pointer;flex-direction:column;
+  align-items:center;justify-content:center;gap:5px;
+}
+.hamburger span{display:block;width:16px;height:2px;background:var(--text-secondary);border-radius:2px;}
+.overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:99;}
+@media(max-width:860px){
+  .layout{grid-template-columns:1fr;}
+  .sidebar{
+    position:fixed;top:0;left:0;height:100vh;width:260px;z-index:100;
+    background:var(--bg);transform:translateX(-100%);transition:transform .25s;
+  }
+  .sidebar.open{transform:translateX(0);}
+  .overlay{display:block;opacity:0;pointer-events:none;transition:opacity .25s;}
+  .overlay.visible{opacity:1;pointer-events:all;}
+  .hamburger{display:flex;}
+  main{padding:60px 20px 40px;}
+}
+@media(max-width:600px){.hero-stats{grid-template-columns:1fr 1fr;}}
+
+/* FADE IN */
+.fi{opacity:0;transform:translateY(14px);transition:opacity .4s,transform .4s;}
+.fi.in{opacity:1;transform:translateY(0);}
+</style>
+</head>
+<body>
+
+<button class="hamburger" id="ham"><span></span><span></span><span></span></button>
+<div class="overlay" id="overlay"></div>
+
+<div class="layout">
+
+<!-- ════ SIDEBAR ════ -->
+<aside class="sidebar" id="sidebar">
+
+  <div class="profile-block">
+    <div class="avatar">ВЯ</div>
+    <div class="profile-name">Яковлев Вадим</div>
+    <div class="profile-role">Fullstack Dev · 1С Программист</div>
+    <div class="status-dot">Открыт к работе</div>
+  </div>
+
+  <div class="salary-block">
+    <div class="salary-label">Ожидания</div>
+    <div class="salary-value">от 60 000 ₽</div>
+  </div>
+
+  <div>
+    <div class="sidebar-label">Контакты</div>
+    <div class="contact-list">
+      <a href="tel:+79063857989" class="contact-item"><span class="ci">📞</span>+7 (906) 385-79-89</a>
+      <a href="https://t.me/povol1337" target="_blank" class="contact-item"><span class="ci">✈</span>@povol1337</a>
+      <a href="mailto:yvadimka04@mail.ru" class="contact-item"><span class="ci">✉</span>yvadimka04@mail.ru</a>
+      <a href="https://github.com/Ficus1/" target="_blank" class="contact-item"><span class="ci">⌥</span>github.com/Ficus1</a>
+      <a href="ССЫЛКА_НА_HH" target="_blank" class="contact-item"><span class="ci">📄</span>Резюме на HH</a>
+      <a href="https://ficus1.github.io/gallery/" target="_blank" class="contact-item"><span class="ci">🎨</span>UI/UX Портфолио</a>
+    </div>
+  </div>
+
+  <div>
+    <div class="sidebar-label">Локация</div>
+    <div class="contact-list">
+      <div class="contact-item"><span class="ci">📍</span>Чебоксары</div>
+      <div class="contact-item"><span class="ci">💻</span>Удалённо / Гибрид</div>
+      <div class="contact-item"><span class="ci">🇷🇺</span>Русский — родной</div>
+      <div class="contact-item"><span class="ci">🇬🇧</span>English — B2</div>
+    </div>
+  </div>
+
+  <div>
+    <div class="sidebar-label">Разделы</div>
+    <nav id="nav">
+      <a href="#about"      class="active"><span class="icon">👤</span>О себе</a>
+      <a href="#experience">              <span class="icon">💼</span>Опыт работы</a>
+      <a href="#skills">                  <span class="icon">⚡</span>Навыки</a>
+      <a href="#projects">                <span class="icon">🗂</span>Проекты</a>
+      <a href="#education">               <span class="icon">🎓</span>Образование</a>
+    </nav>
+  </div>
+
+  <button class="theme-toggle" onclick="toggleTheme()">
+    <span id="t-icon">☀</span><span id="t-txt">Светлая тема</span>
+  </button>
+
+</aside>
+
+<!-- ════ MAIN ════ -->
+<main>
+
+  <!-- HERO -->
+  <div class="hero" id="hero">
+    <div class="hero-eyebrow">
+      <span>~/vadim-yakovlev</span><span class="cursor"></span>
+    </div>
+    <h1>Яковлев<br><span>Вадим</span></h1>
+    <div class="hero-sub">Fullstack Developer &amp; 1С Программист · 1 год 10 месяцев опыта</div>
+    <div class="hero-tags">
+      <span class="tag">Python</span>
+      <span class="tag">Django</span>
+      <span class="tag">FastAPI</span>
+      <span class="tag">PHP · Laravel · Yii2</span>
+      <span class="tag">C# · ASP.NET Blazor</span>
+      <span class="tag">1С:ERP</span>
+      <span class="tag">PostgreSQL</span>
+      <span class="tag">Docker</span>
+      <span class="tag">Excel VBA</span>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><div class="stat-n">1.5+</div><div class="stat-l">лет с 1С:ERP</div></div>
+      <div class="stat"><div class="stat-n">×20</div><div class="stat-l">ускорение VBA<br>60 → 3 мин</div></div>
+      <div class="stat"><div class="stat-n">8+</div><div class="stat-l">проектов на GitHub</div></div>
+      <div class="stat"><div class="stat-n">B2</div><div class="stat-l">English<br>Upper-Int</div></div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-header"><h2>О себе</h2><div class="section-line"></div></div>
+
+    <div class="card fi">
+      <div class="about-text">
+        <p><strong>Fullstack-разработчик</strong> с опытом создания веб-приложений на Python, PHP и C#. Работал с Django, Flask, FastAPI, Laravel, Yii2 и ASP.NET Blazor — строил интернет-магазины, REST API, сервисы автоматизации и Telegram-ботов.</p>
+        <p>Имею <strong>1,5 года коммерческого опыта</strong> автоматизации бизнес-процессов и работы с корпоративными системами на базе <strong>1С:ERP</strong>. Понимаю требования бизнеса и умею разговаривать с разработчиками, бухгалтерами и технологами одинаково продуктивно.</p>
+        <p>Сейчас целенаправленно изучаю разработку конфигураций 1С:Предприятие 8.3 и расширяю веб-стек — FastAPI и TypeScript. Студент ЧГУ по направлению «Прикладная информатика» (заочно, выпуск 2027).</p>
+      </div>
+    </div>
+
+    <div class="about-cards fi">
+      <div class="about-card">
+        <div class="about-card-icon">🌐</div>
+        <div class="about-card-title">Fullstack Web</div>
+        <div class="about-card-text">Python, PHP, C# от базы данных до UI. REST API, токен-авторизация, Docker, деплой на Railway и Render.</div>
+      </div>
+      <div class="about-card">
+        <div class="about-card-icon">🗄</div>
+        <div class="about-card-title">1С & ERP</div>
+        <div class="about-card-text">1,5 года с 1С:ERP на производстве. Номенклатура, техкарты, загрузка из Excel, печатные формы, ТЗ для разработчиков.</div>
+      </div>
+      <div class="about-card">
+        <div class="about-card-icon">📊</div>
+        <div class="about-card-title">Автоматизация</div>
+        <div class="about-card-text">VBA-макросы: ускорение ×20. Python-скрипты для мониторинга цехов в реальном времени. Консолидация данных.</div>
+      </div>
+      <div class="about-card">
+        <div class="about-card-icon">🤖</div>
+        <div class="about-card-title">Боты & API</div>
+        <div class="about-card-text">Telegram-боты на aiogram. REST API интеграции: погода, валюты, авиабилеты. AI-интеграция (DeepSeek). Яндекс Maps.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-header"><h2>Опыт работы</h2><div class="section-line"></div></div>
+
+    <div class="tabs-bar">
+      <button class="tab-btn active" data-tab="exp-all">Все</button>
+      <button class="tab-btn" data-tab="exp-fs">Fullstack</button>
+      <button class="tab-btn" data-tab="exp-1c">1С-разработка</button>
+    </div>
+
+    <!-- ALL -->
+    <div class="tab-pane active" id="exp-all">
+      <div class="card fi">
+        <div class="exp-header">
+          <div class="exp-title">Менеджер по разработке рекламной продукции</div>
+          <div class="exp-period">март 2026 — н.в.</div>
+        </div>
+        <div class="exp-company">ООО «ГК ЭСЕТ» · Чебоксары <span class="exp-duration">4 мес.</span></div>
+        <ul class="exp-duties">
+          <li>Разработка веб-конфигуратора продукции на Django: логика расчёта стоимости с учётом дилерских наценок, скидок и параметров продукта</li>
+          <li>Настройка и доработка печатных форм в 1С; доработка загрузчика бланков заказов из Excel в 1С</li>
+          <li>Формирование отчётов в 1С для актуализации ценовых данных по 7 коллекциям</li>
+          <li>Разработка и актуализация прайс-листов на 7 коллекций металлических дверей: сбор данных от технологов, экономистов, дизайнеров</li>
+          <li>Настройка сбора обратной связи через Google Forms и Битрикс24; версионирование в Google Drive</li>
+          <li>Консультирование менеджеров по структуре прайса; методическая поддержка отдела обучения</li>
+        </ul>
+        <div class="ach-label">▸ Достижения</div>
+        <ul class="ach-list">
+          <li>Django-конфигуратор внедрён в отдел продаж — автоматически рассчитывает итоговую стоимость с учётом всех наценок</li>
+          <li>Загрузчик бланков заказов в 1С доработан и стабильно работает в production</li>
+          <li>Выявил несоответствия в технической документации производства, передал на исправление</li>
+          <li>Прайс-листы приведены к корпоративному стилю и внедрены в продажи</li>
+        </ul>
+      </div>
+
+      <div class="card fi">
+        <div class="exp-header">
+          <div class="exp-title">Специалист 1С</div>
+          <div class="exp-period">сен 2024 — фев 2026</div>
+        </div>
+        <div class="exp-company">ООО «Промлит» · Чебоксары <span class="exp-duration">1 год 6 мес.</span></div>
+        <ul class="exp-duties">
+          <li>1С:ERP производственного предприятия: ведение и настройка номенклатуры, технологические карты, спецификации</li>
+          <li>Подготовка, проверка и загрузка данных из Excel в 1С:ERP; контроль корректности импорта</li>
+          <li>Поддержка системы почасового учёта план/факта по тоннажу в цехах: доработка шаблонов, улучшение логики сбора данных</li>
+          <li>Составление ТЗ на доработку 1С:ERP по потребностям производственного учёта</li>
+          <li>Разработка инструментов автоматизации на Excel VBA: отчёты, консолидация файлов</li>
+          <li>Участие в формировании плана отливок; расчёт ФОТ производственного персонала</li>
+        </ul>
+        <div class="ach-label">▸ Достижения</div>
+        <ul class="ach-list">
+          <li>Python-скрипт обрабатывает данные план/факта из Excel и выводит показатели на экраны в цехах в реальном времени (production)</li>
+          <li>VBA-макрос автозаполнения производственных файлов: с 60 до 3 минут — ускорение ×20</li>
+          <li>Автоматизация графика вахтового персонала: с 90 до 15 минут — ×6</li>
+          <li>Инструмент консолидации: детали заказов из множества файлов сводятся в единую таблицу автоматически</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- FULLSTACK -->
+    <div class="tab-pane" id="exp-fs">
+      <div class="card fi">
+        <div class="exp-header">
+          <div class="exp-title">Веб-разработка — ООО «ГК ЭСЕТ»</div>
+          <div class="exp-period">март 2026 — н.в.</div>
+        </div>
+        <div class="exp-company">Django-конфигуратор продукции</div>
+        <ul class="exp-duties">
+          <li>Разработка веб-конфигуратора на Django для внутреннего использования</li>
+          <li>Логика расчёта стоимости: дилерские наценки, скидки, параметры продукта</li>
+          <li>Интеграция с 1С: синхронизация номенклатуры и цен</li>
+        </ul>
+        <div class="ach-label">▸ Результат</div>
+        <ul class="ach-list">
+          <li>Конфигуратор внедрён — менеджеры рассчитывают стоимость в несколько кликов вместо ручных вычислений</li>
+        </ul>
+      </div>
+      <div class="card fi">
+        <div class="exp-header">
+          <div class="exp-title">Python-автоматизация — ООО «Промлит»</div>
+          <div class="exp-period">сен 2024 — фев 2026</div>
+        </div>
+        <div class="exp-company">Производственный мониторинг в реальном времени</div>
+        <ul class="exp-duties">
+          <li>Python-скрипт: обработка данных план/факта из Excel → слайды на экраны в цехах (production)</li>
+          <li>VBA-макросы: автозаполнение файлов, генерация отчётов, консолидация данных</li>
+        </ul>
+        <div class="ach-label">▸ Результат</div>
+        <ul class="ach-list">
+          <li>Python-дашборд работает в production ежедневно</li>
+          <li>VBA: 60→3 мин (×20) · График вахты: 90→15 мин (×6)</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 1С -->
+    <div class="tab-pane" id="exp-1c">
+      <div class="card fi">
+        <div class="exp-header">
+          <div class="exp-title">1С-доработки — ООО «ГК ЭСЕТ»</div>
+          <div class="exp-period">март 2026 — н.в.</div>
+        </div>
+        <ul class="exp-duties">
+          <li>Настройка и доработка печатных форм в 1С под актуальные требования учёта</li>
+          <li>Доработка загрузчика бланков заказов Excel → 1С</li>
+          <li>Формирование отчётов для актуализации ценовых данных по 7 коллекциям</li>
+          <li>Проектирование структуры бланка заказа для корректного импорта в 1С</li>
+        </ul>
+        <div class="ach-label">▸ Результат</div>
+        <ul class="ach-list">
+          <li>Загрузчик стабильно работает в production</li>
+          <li>Печатные формы актуализированы под текущие требования</li>
+        </ul>
+      </div>
+      <div class="card fi">
+        <div class="exp-header">
+          <div class="exp-title">Специалист 1С — ООО «Промлит»</div>
+          <div class="exp-period">сен 2024 — фев 2026</div>
+        </div>
+        <div class="exp-company">1С:ERP · производственное предприятие <span class="exp-duration">1 год 6 мес.</span></div>
+        <ul class="exp-duties">
+          <li>Ведение и настройка номенклатуры, технологические карты, спецификации</li>
+          <li>Загрузка данных Excel → 1С:ERP с контролем корректности и устранением ошибок</li>
+          <li>Почасовой учёт план/факта по тоннажу: доработка шаблонов, улучшение логики</li>
+          <li>Составление ТЗ на доработку 1С:ERP по потребностям производственного учёта</li>
+          <li>Расчёт ФОТ производственного персонала; участие в формировании плана отливок</li>
+        </ul>
+        <div class="ach-label">▸ Достижения</div>
+        <ul class="ach-list">
+          <li>Сформирована и поддерживается актуальная номенклатура и техкарты в 1С:ERP</li>
+          <li>Налажен стабильный процесс загрузки Excel → 1С с контролем качества</li>
+          <li>ТЗ задокументированы и переданы разработчикам</li>
+        </ul>
+      </div>
+      <div class="card fi" style="border-color:var(--purple);">
+        <div class="exp-title" style="color:var(--purple);margin-bottom:8px;">🎓 Самостоятельное изучение 1С-разработки</div>
+        <ul class="exp-duties">
+          <li>Встроенный язык 1С:Предприятие 8.3, метаданные: справочники, документы, регистры</li>
+          <li>Управляемые формы, запросы, отчёты на СКД</li>
+          <li>Обмен данными: XML, JSON, COM-соединение</li>
+          <li>Практика на конфигурациях 1С:УТ и 1С:Бухгалтерия</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-header"><h2>Навыки</h2><div class="section-line"></div></div>
+
+    <div class="tabs-bar">
+      <button class="tab-btn active" data-tab="sk-all">Все</button>
+      <button class="tab-btn" data-tab="sk-fs">Fullstack</button>
+      <button class="tab-btn" data-tab="sk-1c">1С & Автоматизация</button>
+    </div>
+
+    <div class="tab-pane active" id="sk-all">
+      <div class="skills-grid">
+        <div class="card" style="padding:16px;"><div class="skill-group-title">Frontend</div><div class="skill-tags"><span class="skill-tag">HTML5</span><span class="skill-tag">CSS3</span><span class="skill-tag">JavaScript ES6+</span><span class="skill-tag">TypeScript</span><span class="skill-tag">Tailwind CSS</span><span class="skill-tag">Bootstrap 5</span><span class="skill-tag">jQuery</span><span class="skill-tag">AJAX</span></div></div>
+        <div class="card" style="padding:16px;"><div class="skill-group-title">Python Backend</div><div class="skill-tags"><span class="skill-tag">Django</span><span class="skill-tag">DRF</span><span class="skill-tag">Flask</span><span class="skill-tag">FastAPI</span><span class="skill-tag">Pydantic v2</span><span class="skill-tag">aiogram</span><span class="skill-tag">aiosmtplib</span></div></div>
+        <div class="card" style="padding:16px;"><div class="skill-group-title">PHP & C#</div><div class="skill-tags"><span class="skill-tag">Laravel</span><span class="skill-tag">Yii2</span><span class="skill-tag">ASP.NET</span><span class="skill-tag">Blazor WebAssembly</span><span class="skill-tag">EF Core</span><span class="skill-tag">MudBlazor</span></div></div>
+        <div class="card" style="padding:16px;"><div class="skill-group-title">Базы данных</div><div class="skill-tags"><span class="skill-tag">PostgreSQL</span><span class="skill-tag">MySQL</span><span class="skill-tag">SQLite</span><span class="skill-tag">MS SQL</span><span class="skill-tag">SQLAlchemy</span><span class="skill-tag">Active Record</span></div></div>
+        <div class="card" style="padding:16px;"><div class="skill-group-title">1С & Автоматизация</div><div class="skill-tags"><span class="skill-tag">1С:ERP</span><span class="skill-tag">1С:Предприятие 8</span><span class="skill-tag">1С:УТ</span><span class="skill-tag">Excel VBA</span><span class="skill-tag">XML</span><span class="skill-tag">JSON</span><span class="skill-tag">СКД</span></div></div>
+        <div class="card" style="padding:16px;"><div class="skill-group-title">DevOps & Инструменты</div><div class="skill-tags"><span class="skill-tag">Git</span><span class="skill-tag">Docker</span><span class="skill-tag">Docker Compose</span><span class="skill-tag">Figma</span><span class="skill-tag">REST API</span><span class="skill-tag">Swagger</span><span class="skill-tag">Apache</span></div></div>
+      </div>
+    </div>
+    <div class="tab-pane" id="sk-fs">
+      <div class="skills-grid">
+        <div class="card" style="padding:16px;"><div class="skill-group-title">Frontend</div><div class="skill-tags"><span class="skill-tag">HTML5</span><span class="skill-tag">CSS3</span><span class="skill-tag">JavaScript ES6+</span><span class="skill-tag">TypeScript</span><span class="skill-tag">Tailwind CSS</span><span class="skill-tag">Bootstrap 5</span><span class="skill-tag">jQuery</span></div></div>
+        <div class="card" style="padding:16px;"><div class="skill-group-title">Python</div><div class="skill-tags"><span class="skill-tag">Django</span><span class="skill-tag">DRF</span><span class="skill-tag">Flask</span><span class="skill-tag">FastAPI</span><span class="skill-tag">Pydantic v2</span><span class="skill-tag">aiogram</span></div></div>
+        <div class="card" style="padding:16px;"><div class="skill-group-title">PHP & C#</div><div class="skill-tags"><span class="skill-tag">Laravel</span><span class="skill-tag">Yii2</span><span class="skill-tag">ASP.NET Blazor</span><span class="skill-tag">EF Core</span></div></div>
+        <div class="card" style="padding:16px;"><div class="skill-group-title">Базы данных</div><div class="skill-tags"><span class="skill-tag">PostgreSQL</span><span class="skill-tag">MySQL</span><span class="skill-tag">SQLite</span><span class="skill-tag">SQLAlchemy</span></div></div>
+        <div class="card" style="padding:16px;"><div class="skill-group-title">DevOps</div><div class="skill-tags"><span class="skill-tag">Docker</span><span class="skill-tag">Docker Compose</span><span class="skill-tag">Git</span><span class="skill-tag">Render.com</span><span class="skill-tag">GitHub Pages</span></div></div>
+      </div>
+    </div>
+    <div class="tab-pane" id="sk-1c">
+      <div class="skills-grid">
+        <div class="card" style="padding:16px;"><div class="skill-group-title">Платформы 1С</div><div class="skill-tags"><span class="skill-tag">1С:ERP</span><span class="skill-tag">1С:Предприятие 8.3</span><span class="skill-tag">1С:УТ</span><span class="skill-tag">1С:Бухгалтерия</span><span class="skill-tag">1С:Документооборот</span></div></div>
+        <div class="card" style="padding:16px;"><div class="skill-group-title">Разработка 1С</div><div class="skill-tags"><span class="skill-tag">Встроенный язык</span><span class="skill-tag">Управляемые формы</span><span class="skill-tag">Справочники</span><span class="skill-tag">Документы</span><span class="skill-tag">Регистры</span><span class="skill-tag">СКД</span><span class="skill-tag">Печатные формы</span></div></div>
+        <div class="card" style="padding:16px;"><div class="skill-group-title">Интеграция</div><div class="skill-tags"><span class="skill-tag">Excel → 1С</span><span class="skill-tag">XML</span><span class="skill-tag">JSON</span><span class="skill-tag">COM-соединение</span><span class="skill-tag">REST API</span></div></div>
+        <div class="card" style="padding:16px;"><div class="skill-group-title">Автоматизация</div><div class="skill-tags"><span class="skill-tag">Excel VBA</span><span class="skill-tag">Python</span><span class="skill-tag">Консолидация данных</span><span class="skill-tag">Отчёты</span><span class="skill-tag">ФОТ</span><span class="skill-tag">Производственный учёт</span></div></div>
+      </div>
+    </div>
+
+    <div class="section-header" style="margin-top:8px;"><h2>Сейчас изучаю</h2><div class="section-line"></div></div>
+    <div class="learn-grid fi">
+      <div class="learn-card"><div class="learn-icon">⚡</div><div class="learn-name">FastAPI</div><div class="learn-desc">Async, Pydantic v2, OpenAPI</div><div class="prog-wrap"><div class="prog-fill" style="width:70%"></div></div></div>
+      <div class="learn-card"><div class="learn-icon">🔷</div><div class="learn-name">TypeScript</div><div class="learn-desc">Типизация, дженерики</div><div class="prog-wrap"><div class="prog-fill" style="width:55%"></div></div></div>
+      <div class="learn-card"><div class="learn-icon">🗄</div><div class="learn-name">1С Разработка</div><div class="learn-desc">Конфигурации, СКД, формы</div><div class="prog-wrap"><div class="prog-fill" style="width:60%"></div></div></div>
+      <div class="learn-card"><div class="learn-icon">🐳</div><div class="learn-name">Docker / CI-CD</div><div class="learn-desc">Оркестрация, деплой</div><div class="prog-wrap"><div class="prog-fill" style="width:45%"></div></div></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-header"><h2>Проекты</h2><div class="section-line"></div></div>
+    <div class="project-grid">
+
+      <div class="project-card fi">
+        <div class="project-name">AutoPartsStore</div>
+        <div class="project-stack">C# · ASP.NET Blazor · EF Core · .NET 10</div>
+        <div class="project-desc">Интернет-магазин автозапчастей: каталог с фильтрацией, корзина, ролевая модель (ASP.NET Identity). EF Core с Lazy Loading, автомиграции. MudBlazor UI.</div>
+        <div class="project-links">
+          <a href="https://github.com/Ficus1/AutoPartsStore" target="_blank" rel="noopener" class="project-link">↗ GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card fi">
+        <div class="project-name">developer-landing-api</div>
+        <div class="project-stack">FastAPI · DeepSeek AI · Pydantic v2 · Render</div>
+        <div class="project-desc">Backend API с AI-интеграцией: анализ обращений (тональность, категория, срочность), email, rate limiting, graceful fallback. Swagger UI.</div>
+        <div class="project-links">
+          <a href="https://github.com/Ficus1/developer-landing-api" target="_blank" rel="noopener" class="project-link">↗ GitHub</a>
+          <a href="https://developer-landing-api-pp1y.onrender.com/docs" target="_blank" rel="noopener" class="project-link">→ Live demo</a>
+        </div>
+      </div>
+
+      <div class="project-card fi">
+        <div class="project-name">Web — доска объявлений</div>
+        <div class="project-stack">Python · Flask · SQLAlchemy · Яндекс Maps API</div>
+        <div class="project-desc">Fullstack с нуля: авторизация, CRUD объявлений, категории, лайки, загрузка фото. Яндекс Static Maps. Деплой на Railway.</div>
+        <div class="project-links">
+          <a href="https://github.com/Ficus1/web" target="_blank" rel="noopener" class="project-link">↗ GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card fi">
+        <div class="project-name">DjangoEducation</div>
+        <div class="project-stack">Python · Django REST Framework · MySQL</div>
+        <div class="project-desc">REST API интернет-магазина электроники: CRUD, ViewSet, Router, токен-авторизация. Тестирование в Postman.</div>
+        <div class="project-links">
+          <a href="https://github.com/Ficus1/DjangoEducation" target="_blank" rel="noopener" class="project-link">↗ GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card fi">
+        <div class="project-name">repair-service</div>
+        <div class="project-stack">PHP · Laravel / Yii2 · MySQL · Docker</div>
+        <div class="project-desc">Сервис приёма и управления заявками на ремонт: CRUD, REST API, маршрутизация. Docker Compose.</div>
+        <div class="project-links">
+          <a href="https://github.com/Ficus1/repair-service" target="_blank" rel="noopener" class="project-link">↗ GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card fi">
+        <div class="project-name">TGBots</div>
+        <div class="project-stack">Python · aiogram · REST API</div>
+        <div class="project-desc">Три бота: погода, конвертер валют, поиск авиабилетов. HTTP-интеграции с внешними API, безопасное хранение токенов через .env.</div>
+        <div class="project-links">
+          <a href="https://github.com/Ficus1/TGBots" target="_blank" rel="noopener" class="project-link">↗ GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card fi">
+        <div class="project-name">Yii2</div>
+        <div class="project-stack">PHP 8.x · Yii2 · Active Record · Codeception</div>
+        <div class="project-desc">MVC-архитектура, авторизация, Active Record + MySQL. Unit и functional тесты через Codeception. Docker Compose.</div>
+        <div class="project-links">
+          <a href="https://github.com/Ficus1/Yii2" target="_blank" rel="noopener" class="project-link">↗ GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card fi" style="border-color:var(--purple);">
+        <div class="project-name" style="color:var(--purple);">Gallery — UI/UX портфолио</div>
+        <div class="project-stack" style="color:var(--purple);background:var(--purple-dim);">HTML5 · Bootstrap 5 · Figma · GitHub Pages</div>
+        <div class="project-desc">Галерея 7 UI/UX проектов: фильтрация по тегам, лайтбокс, встраивание Figma-прототипов. Деплой на GitHub Pages.</div>
+        <div class="project-links">
+          <a href="https://ficus1.github.io/gallery/" target="_blank" rel="noopener" class="project-link" style="color:var(--purple);">→ Live demo</a>
+          <a href="https://github.com/Ficus1/gallery" target="_blank" rel="noopener" class="project-link" style="color:var(--purple);">↗ GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="section-header"><h2>Образование</h2><div class="section-line"></div></div>
+
+    <div class="card fi">
+      <div class="edu-degree">Высшее (незаконченное) — Заочная форма, 2 курс</div>
+      <div class="edu-uni">Чувашский государственный университет им. И.Н. Ульянова</div>
+      <div class="edu-spec">09.03.03 «Прикладная информатика в дизайне» · Факультет информатики и ВТ</div>
+      <div class="edu-year">Окончание: 2027</div>
+    </div>
+
+    <div class="card fi">
+      <div class="edu-degree">Среднее специальное</div>
+      <div class="edu-uni">Чебоксарский профессиональный колледж им. Н.В. Никольского</div>
+      <div class="edu-spec">09.02.07 «Информационные системы и программирование»</div>
+      <div class="edu-year">Окончание: 2024</div>
+    </div>
+
+    <div class="section-header"><h2>Курсы</h2><div class="section-line"></div></div>
+
+    <div class="course-item fi"><div class="course-year">2024</div><div>«Основы программирования на JavaScript» — ВолГТУ</div></div>
+    <div class="course-item fi"><div class="course-year">2022</div><div>«Основы SQL» — интерактивный тренажёр Stepik</div></div>
+    <div class="course-item fi"><div class="course-year">2021</div><div>«Программирование на Python» — Яндекс.Лицей, ЧГУ</div></div>
+  </section>
+
+</main>
+</div>
+
+<script>
+/* THEME */
+function toggleTheme(){
+  const html=document.documentElement;
+  const dark=html.getAttribute('data-theme')==='dark';
+  html.setAttribute('data-theme',dark?'light':'dark');
+  document.getElementById('t-icon').textContent=dark?'☽':'☀';
+  document.getElementById('t-txt').textContent=dark?'Тёмная тема':'Светлая тема';
+  localStorage.setItem('theme',dark?'light':'dark');
+}
+const saved=localStorage.getItem('theme');
+if(saved){
+  document.documentElement.setAttribute('data-theme',saved);
+  document.getElementById('t-icon').textContent=saved==='dark'?'☀':'☽';
+  document.getElementById('t-txt').textContent=saved==='dark'?'Светлая тема':'Тёмная тема';
+}
+
+/* TABS */
+document.querySelectorAll('.tabs-bar').forEach(bar=>{
+  bar.querySelectorAll('.tab-btn').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const id=btn.dataset.tab;
+      bar.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      const parent=bar.closest('section')||bar.parentElement;
+      parent.querySelectorAll('.tab-pane').forEach(p=>p.classList.toggle('active',p.id===id));
+    });
+  });
+});
+
+/* ACTIVE NAV */
+const navLinks=document.querySelectorAll('#nav a');
+const obs=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      navLinks.forEach(l=>l.classList.remove('active'));
+      const a=document.querySelector(`#nav a[href="#${e.target.id}"]`);
+      if(a)a.classList.add('active');
+    }
+  });
+},{threshold:0.3});
+document.querySelectorAll('section[id],div[id]').forEach(s=>obs.observe(s));
+
+/* SMOOTH SCROLL */
+navLinks.forEach(a=>{
+  a.addEventListener('click',e=>{
+    e.preventDefault();
+    document.querySelector(a.getAttribute('href'))?.scrollIntoView({behavior:'smooth'});
+    if(window.innerWidth<=860){sidebar.classList.remove('open');overlay.classList.remove('visible');}
+  });
+});
+
+/* MOBILE */
+const ham=document.getElementById('ham');
+const sidebar=document.getElementById('sidebar');
+const overlay=document.getElementById('overlay');
+ham.addEventListener('click',()=>{sidebar.classList.toggle('open');overlay.classList.toggle('visible');});
+overlay.addEventListener('click',()=>{sidebar.classList.remove('open');overlay.classList.remove('visible');});
+
+/* FADE IN */
+const fo=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in');}),{threshold:0.08});
+document.querySelectorAll('.fi').forEach(el=>fo.observe(el));
+</script>
+</body>
+</html>
